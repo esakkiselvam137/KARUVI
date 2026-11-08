@@ -218,3 +218,22 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# KARUVI: secrets and credentials
+*.key
+*.token
+secrets*
+credentials*
+kaggle.json
+huggingface_token*
+
+# KARUVI: model artifacts
+*.ckpt
+*.safetensors
+*.gguf
+*.bin
+
+# KARUVI: training outputs
+outputs/
+runs/
+wandb/
